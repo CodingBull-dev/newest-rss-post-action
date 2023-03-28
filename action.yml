@@ -1,0 +1,14 @@
+name: "Latest RSS"
+description: "Get the latest post data from an RSS feed"
+author: codingbull-dev
+branding:
+  icon: link
+  color: yellow
+inputs:
+  rss:
+    required: true
+    description: The url of the rss feed
+    type: string
+runs:
+  using: 'docker'
+  image: 'docker://ghcr.io/codingbull-dev/latest-rss/action:0.0.1'
