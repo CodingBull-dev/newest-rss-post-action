@@ -10,8 +10,6 @@ COPY . .
 
 RUN npm run build
 
-RUN ls .
-
 FROM node:18-slim
 
 COPY --from=Builder /action/dist /action
