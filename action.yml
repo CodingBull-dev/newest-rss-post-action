@@ -11,4 +11,4 @@ inputs:
     type: string
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/codingbull-dev/latest-rss/action:0.0.1'
+  image: 'docker://ghcr.io/codingbull-dev/newest-rss-post-action/action:0.0.1'
