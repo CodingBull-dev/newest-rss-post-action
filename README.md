@@ -1,8 +1,8 @@
-# Latest RSS
+# Newest RSS Post
 
 ## GitHub action
 
-Get the latest post title and link from an RSS feed.
+Get the newest post title and link from an RSS feed.
 
 Ideal for when you publish a new post in your blog and you want to get the url to share on social media with another action.
 
@@ -31,7 +31,7 @@ jobs:
       - name: Fetch Post Data
         # important, add an id to your step
         id: rss
-        uses: CodingBull-dev/latest-rss@main
+        uses: CodingBull-dev/newest-rss-post-action@main
         with:
           # make sure that the link is an RSS site
           rss: "https://mywebsite.com/feed.xml"

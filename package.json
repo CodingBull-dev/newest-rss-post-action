@@ -1,5 +1,5 @@
 {
-  "name": "latest-rss",
+  "name": "newest-rss-post-action",
   "version": "0.0.1",
   "description": "Get the latest RSS post from an url",
   "main": "dist/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CodingBull-dev/latest-rss.git"
+    "url": "git+https://github.com/CodingBull-dev/newest-rss-post-action.git"
   },
   "keywords": [
     "github",
@@ -18,9 +18,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CodingBull-dev/latest-rss/issues"
+    "url": "https://github.com/CodingBull-dev/newest-rss-post-action/issues"
   },
-  "homepage": "https://github.com/CodingBull-dev/latest-rss#readme",
+  "homepage": "https://github.com/CodingBull-dev/newest-rss-post-action#readme",
   "devDependencies": {
     "@types/xml2js": "^0.4.11",
     "@vercel/ncc": "^0.36.1",
